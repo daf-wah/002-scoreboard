@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="/002-scoreboard/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="home-board">
+            <h3>HOME</h3>
+            <div id="score-home" class="score"></div>
+            <div class="addpoints">
+                <button class="points" id="onepoint-hm" onclick="addoneHm()">+1</button>
+                <button class="points" id="twopoint-hm" onclick="addtwoHm()">+2</button>
+                <button class="points" id="threepoint-hm" onclick="addthreeHm()">+3</button>
+            </div>
+        </div>
+        <div class="away-board">
+            <h3>GUEST</h3>
+            <div id="away-score" class="score"></div>
+            <div class="addpoints">
+                <button class="points" id="onepoint-away" onclick="addoneAw()">+1</button>
+                <button class="points" id="twopoint-away" onclick="addtwoAw()">+2</button>
+                <button class="points" id="threepoint-away" onclick="addthreeAw()">+3</button>
+            </div>
+        </div>
+    </div>
+    <div class="newgame">
+        <div class="reset">
+            <button id="new-game" onclick="newgame()">New Game</button>
+        </div>
+    </div>
+
+    <script src="/002-scoreboard/js/index.js"></script>
+</body>
+</html>

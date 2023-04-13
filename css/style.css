@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Scoreboard;
+    src: url(/002-scoreboard/fonts/advanced_led_board-7.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: rgb(26, 27, 127);
+    font-family: Scoreboard;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score {
+    background-color: black;
+    width: 8rem;
+    height: 8rem;
+    color: rgb(240, 55, 55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.addpoints.points {
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 3rem;
+}
+
+button {
+    background-color: rgb(26, 27, 127);
+    border: 2px whitesmoke solid;
+    border-radius: 15%; 
+    font-family: inherit;
+    color: whitesmoke;
+}
+
+.home-board,
+.away-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newgame {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+#new-game {
+    padding: 1rem 2rem;
+}
