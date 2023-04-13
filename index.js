@@ -42,4 +42,6 @@ function addthreeAw() {
 function newgame() {
     scoreHome.textContent = 0;
     scoreAway.textContent = 0;
+    homeScore = scoreHome.textContent;
+    awayScore = scoreAway.textContent;
 } 
